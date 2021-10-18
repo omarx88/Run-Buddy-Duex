@@ -1,5 +1,7 @@
 
-/* this removes the default browser-enforced styles. i.e padding/margins */
+/* this removes the default browser-enforced styles. i.e padding/margins. 
+Border box allows for all content of the page to fit within a defined 
+space incase padding exceeds the width "see footer"*/
 * {
     margin: 0;
     padding: 0;
