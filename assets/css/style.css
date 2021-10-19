@@ -88,7 +88,6 @@ not cutting off elements*/
     background-position: center;
     position: relative;
 }
-/* Hero Style End */
 
 /* Hero Form Start : by making the .hero section relative positioning and
 the .hero-form absolute, we have made hero forms position adjust according to
@@ -100,6 +99,39 @@ its parent element hero*/
    width: 500px;
    color: #024e76;
    position: absolute;
-   bottom: 0px;
-   right: 0px;
+   bottom: 120px;
+   right: 140px;
 }
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+/* section h3 element styling */
+.hero-form h3 { 
+    font-size: 25px;
+    margin: 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* Hero Style End */
