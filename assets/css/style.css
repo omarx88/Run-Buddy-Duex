@@ -135,3 +135,31 @@ its parent element hero*/
     font-size: 16px;
 }
 /* Hero Style End */
+
+/* What you Do styling */
+
+.intro {
+    text-align:center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 15px solid;
+    border-color: #fce138;
+    display: inline-block;
+}
+
+/* margin adjustment allows us to get better centering of the page
+as only text inside the block will show centered. it allows the top and bottom
+margins to be zero and the right and left to auto and caculates the margin for us 
+by the size of text */
+.intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
