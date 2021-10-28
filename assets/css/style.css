@@ -401,11 +401,12 @@ by the size of text */
     margin-bottom: 15px;
     margin-top: 5px;
     border-radius: 10px;
-    background-color: rgba(2 78,118, 0.8);
+    background-color: rgba(255,255,255, 0.75);
 }
 
-.contact-form input:focus, .contact-form textarea: focus {
-
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255,255,255, 1);
+    outline: none;
 }
 
 
